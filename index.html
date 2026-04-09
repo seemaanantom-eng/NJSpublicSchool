@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="scho.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NJS Public School</title>
+ 
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+ <section id="njs-banner-section">
+    <div class="njs-glass-card">
+        <h1 class="njs-school-name">NJS Public School</h1>
+        <p class="njs-tagline">Excellence in Education & Innovation</p>
+        <div class="njs-stabilizer-bar"></div>
+    </div>
+</section>
+  <div class="creator-container">
+    <p class="knowledge-creator">Creator of Knowledge</p>
+</div>
+<img id="apple" src="apple.jpg" alt="Apple Picture">
+
+
+  
+
+  <p class="stabilizer-text">
+        In the architectural and structural design of a school building, the 
+        <strong>stabilizer</strong> refers to the core elements that ensure 
+        the safety and longevity of the facility against physical stresses. 
+        This typically involves a combination of reinforced concrete shear 
+        walls and a robust foundation system designed to resist lateral 
+        forces like high winds or seismic activity.
+    </p>
+  
+  <div class="mega-slider-stage">
+    <h2 class="section-title">Life at NJS Public School</h2>
+    
+    <div class="slider-container">
+        <div class="slider-track" id="megaTrack">
+            <div class="mega-slide"><img src="havan.jpg" alt="Event 1"></div>
+            <div class="mega-slide"><img src="mater.jpg" alt="Event 2"></div>
+            <div class="mega-slide"><img src="rave.jpg" alt="Event 3"></div>
+            <div class="mega-slide"><img src="cricket.jpg" alt="Event 4"></div>
+            <div class="mega-slide"><img src="football.jpg" alt="Event 5"></div>
+        </div>
+
+        <button class="mega-btn prev" onclick="moveMega(-1)">&#10094;</button>
+        <button class="mega-btn next" onclick="moveMega(1)">&#10095;</button>
+    </div>
+</div>
+  
+<style>
+  /* Use a unique class prefix (e.g., .sf-project) to prevent style bleeding */
+  .sf-project-wrapper {
+    all: initial; /* Resets inherited styles for this container */
+    display: block;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 12px;
+    margin: 2rem auto;
+    overflow: hidden;
+    max-width: 850px;
+  }
+
+  .sf-project-banner {
+    background-color: #065f46; /* Dark Green Athletic Theme */
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .sf-project-banner h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .sf-project-body {
+    padding: 2rem;
+    color: #374151;
+    line-height: 1.7;
+    font-size: 1.05rem;
+  }
+
+  .sf-project-body p {
+    margin: 0;
+    text-indent: 20px;
+  }
+
+  .sf-project-highlight {
+    font-weight: bold;
+    color: #065f46;
+    border-bottom: 2px solid #34d399;
+  }
+
+  .sf-project-features {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 2rem 2rem;
+    gap: 10px;
+  }
+
+  .sf-feature-tag {
+    background: #ecfdf5;
+    color: #065f46;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border: 1px solid #a7f3d0;
+  }
+</style>
+
+<section class="sf-project-wrapper">
+  <div class="sf-project-banner">
+    <h2>Campus Sports Infrastructure</h2>
+  </div>
+  
+  <div class="sf-project-body">
+    <p>
+      The <span class="sf-project-highlight">sports facilities</span> at our institution are designed to bridge the gap between amateur recreation and professional athletic training. By integrating high-end equipment with expansive outdoor arenas, we provide a sanctuary for physical health and mental clarity. Our facilities include a weather-resistant 400-meter track, multi-sport courts for basketball and tennis, and a specialized aquatic wing. These spaces are more than just physical assets; they are the heart of our community where students cultivate <span class="sf-project-highlight">leadership</span>, teamwork, and the discipline required to excel in both sports and academics. Every surface, from the low-impact gym flooring to the floodlit football turf, is maintained to the highest safety standards to ensure an injury-free environment for all participants.
+    </p>
+  </div>
+
+  <div class="sf-project-features">
+    <span class="sf-feature-tag">Indoor Arena</span>
+    <span class="sf-feature-tag">Olympic Pool</span>
+    <span class="sf-feature-tag">Fitness Lab</span>
+  </div>
+</section>
+  
+  <img id="noni"src="/storage/emulated/0/Download/group.jpg">
+<style>
+  .trip-module {
+    all: initial; /* Reset styles to prevent interference */
+    display: block;
+    font-family: 'Trebuchet MS', sans-serif;
+    max-width: 850px;
+    margin: 30px auto;
+    background: #fff;
+    border-top: 6px solid #d4af37; /* Gold theme for historical feel */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+  }
+
+  .trip-header {
+    background: #5d4037; /* Earthy brown tone */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .trip-header h2 {
+    margin: 0;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+
+  .trip-content {
+    padding: 25px;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+  }
+
+  .trip-highlight {
+    color: #8d6e63;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .facilities-bar {
+    background: #f9f5f0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #e0e0e0;
+  }
+
+  .facility-item {
+    font-size: 0.9rem;
+    color: #5d4037;
+    font-weight: bold;
+  }
+</style>
+
+<div class="trip-module">
+  <header class="trip-header">
+    <h2>Educational Excursion: Hastinapur</h2>
+  </header>
+  
+  <div class="trip-content">
+    The school is proud to announce an upcoming excursion to the ancient city of <span class="trip-highlight">Hastinapur</span>, a site of immense historical and cultural significance. This trip is designed to offer students a firsthand look at the remnants of the Kuru Empire and the rich spiritual heritage of the Jain temples. To ensure a seamless experience, the school has organized top-tier <span class="trip-highlight">trip facilities</span>, including secure transportation in certified tourist buses, healthy buffet-style meals, and accommodation in vetted hospitality partners. Our itinerary balances educational lectures at historical sites with recreational visits to the local wildlife sanctuary, all under the vigilant supervision of our senior teaching staff and on-site medical coordinators.
+  </div>
+
+  <div class="facilities-bar">
+    <div class="facility-item">✓ Certified Transport</div>
+    <div class="facility-item">✓ 24/7 Supervision</div>
+    <div class="facility-item">✓ Medical Support</div>
+    <div class="facility-item">✓ Guided Tours</div>
+  </div>
+</div>
+
+    
+<section class="njs-secondary-section">
+    <div class="mega-slider-stage-2">
+        <h2 class="section-title">Our Achievements</h2>
+        
+        <div class="slider-container-2">
+            <div class="slider-track-2" id="megaTrack2">
+                <div class="mega-slide-2"><img src="clay.jpg" alt="Award 1"></div>
+                <div class="mega-slide-2"><img src="rakhi.jpg" alt="Award 2"></div>
+                <div class="mega-slide-2"><img src="diwali.jpg" alt="Award 3"></div>
+                <div class="mega-slide-2"><img src="havan" alt="Award 4"></div>
+            </div>
+
+            <button class="mega-btn-2 prev-2" onclick="moveMega2(-1)">&#10094;</button>
+            <button class="mega-btn-2 next-2" onclick="moveMega2(1)">&#10095;</button>
+        </div>
+    </div>
+</section>
+
+
+
+
+  <style>
+  .activity-block {
+    all: initial; /* Resets global styles */
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .activity-banner {
+    background: linear-gradient(to right, #6366f1, #a855f7);
+    color: white;
+    padding: 25px;
+    text-align: center;
+  }
+
+  .activity-banner h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  .activity-text {
+    padding: 30px;
+    color: #4b5563;
+    line-height: 1.9;
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+
+  .activity-text b {
+    color: #4f46e5;
+  }
+
+  .activity-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    background-color: #f8fafc;
+    border-top: 1px solid #f1f5f9;
+  }
+
+  .tag {
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 6px 14px;
+    border-radius: 9999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+</style>
+
+<article class="activity-block">
+  <header class="activity-banner">
+    <h2>Creative & Extra-Curricular Life</h2>
+  </header>
+  
+  <div class="activity-text">
+    The school’s commitment to a well-rounded education is best seen through our immersive <b>clay activities</b> and diverse club offerings. In our pottery workshops, students engage in the meditative practice of sculpting, using high-quality terracotta and stoneware clay to bring their imaginations to life. This tactile experience is complemented by a wide array of <b>other activities</b>, ranging from high-energy sports tournaments to intellectual debates and cultural festivals. By participating in these programs, students learn to step outside their comfort zones, fostering a spirit of innovation and resilience. Whether they are perfecting a glaze in the kiln room or programming a robot for a regional competition, our students are constantly encouraged to explore, create, and lead.
+  </div>
+
+  <footer class="activity-footer">
+    <span class="tag">Pottery & Ceramics</span>
+    <span class="tag">Robotics Lab</span>
+    <span class="tag">Drama Society</span>
+    <span class="tag">Music Academy</span>
+    <span class="tag">Eco-Warriors</span>
+  </footer>
+</article>
+  <section class="photo-gallery-section">
+  
+  <div class="gallery-header">
+    <h2>Our Community</h2>
+    <p>Capturing the moments that define our journey together.</p>
+    <div class="header-line"></div>
+  </div>
+
+  <div class="photo-grid">
+    <div class="photo-item">
+      <img src="akshu.jpg" alt="Group Photo">
+      <div class="photo-overlay">
+        <span>Team Workshop</span>
+      </div>
+    </div>
+
+    <div class="photo-item tall">
+      <img src="yash.jpg" alt="Group Photo">
+      <div class="photo-overlay">
+        <span>Summer Outing</span>
+      </div>
+    </div>
+
+    <div class="photo-item wide">
+      <img src="group.jpg" alt="Group Photo">
+      <div class="photo-overlay">
+        <span>Annual Gala 2026</span>
+      </div>
+    </div>
+
+    </div>
+  </div>
+
+</section>
+
+<footer class="simple-footer">
+    <div class="footer-wrap">
+        <div class="footer-brand">NJS PUBLIC SCHOOL</div>
+        
+        <nav class="footer-links">
+            <a href="#">Privacy</a>
+            <a href="#">Contact</a>
+            <a href="#">Admissions</a>
+        </nav>
+
+        <div class="footer-copy">
+            &copy; 2026 | <span class="highlight">Creator of Knowledge</span>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
